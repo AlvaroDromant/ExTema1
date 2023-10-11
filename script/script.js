@@ -9,7 +9,7 @@ const calculate = () => {
     let area = long * ancho;
     let diagonal = (Math.sqrt((long*long)+(ancho*ancho)));
 
-    if (long === " " || ancho === " ") {
+    if (long === "" || ancho === "") {
         document.getElementById('mensaje').innerHTML = 'Ingrese todos los valores';
     } else {
         document.getElementById('mensajep').innerHTML = 'El perimetro es: '+perimetro;
