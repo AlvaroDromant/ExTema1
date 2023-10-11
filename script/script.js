@@ -1,5 +1,5 @@
-
-
+//Alvaro Dromant Ligero
+//
 /* Creamos una funcion la cual nos permite calcular la diagonal, ancho y longitud de un rectangulo. Con el if else conseguimos que si el
 usuario no rellena los campos le saldra un aviso*/
 const calculate = () => {
