@@ -7,13 +7,13 @@ const calculate = () => {
     let ancho = document.getElementById('ancho').value;
     let perimetro = (long * 2) + (ancho * 2);
     let area = long * ancho;
-    let diagonal = (Math.SQRT1_2(long + ancho));
+    let diagonal = (Math.sqrt((long*long)+(ancho*ancho)));
 
     if (long === " " || ancho === " ") {
         document.getElementById('mensaje').innerHTML = 'Ingrese todos los valores';
     } else {
         document.getElementById('mensajep').innerHTML = 'El perimetro es: '+perimetro;
         document.getElementById('mensajea').innerHTML = 'El area es: '+area;
-        document.getElementById('mensajed').innerHTML = 'El area es: '+diagonal;
+        document.getElementById('mensajed').innerHTML = 'La diagonal es: '+diagonal;
     }
 }
