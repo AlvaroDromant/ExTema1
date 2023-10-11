@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrado</title>
+    <link rel="Stylesheet" href="/styles/styles.css">
+    
+</head>
+<body>
+
+    <h1>Calculadora de area, perimetro y diagonal de un rectangulo</h1>
+
+    <div>
+        <label for="long" >Longitud:</label>
+        <input type="text" id="long">
+    </br>
+    </br>
+        <label for="ancho">Ancho:</label>
+        <input type="text" id="ancho">
+    </br>
+    </br>
+       <!--Llamamos a nuestra funcion en el boton y asi cuando metemos los datos y lo pulsamos nos salen los resultados-->
+        <button onclick="calculate()" type="button"> Calcular </button>
+
+    <p id="mensajea"></p>
+    <p id="mensajep"></p>
+    <p id="mensajed"></p>
+    <p id="mensaje"></p>
+
+    </div>
+
+    <script src="/script/script.js"></script>
+    
+</body>
+</html>
