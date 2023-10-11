@@ -11,8 +11,9 @@ div{
 
 button{
     /*le damos color y dimensiones a nuestro boton*/
-    background-color: rgb(58, 193, 230);
+    background-color: rgb(20, 63, 182);
     color: white;
     width: 100px;
     height: 50px;
+    border: none;
 }
